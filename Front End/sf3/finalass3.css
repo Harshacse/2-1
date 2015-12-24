@@ -1,0 +1,361 @@
+   #main_div
+   {
+   width:100%;
+   }
+   
+   
+   
+   .stage {
+  background: #eaeaed;
+ 
+  position: relative;
+  min-width: 538px;
+  
+   animation-name: slide;
+  animation-duration: 7s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0.20s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  
+}
+
+.ball {
+ 
+ 
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+   
+   
+   .pos{
+   
+position:relative; 
+padding-top:100px;  
+   
+   
+   }
+   
+   
+   
+    
+   @keyframes slide {
+  0%{
+    left: 0px;
+    top: -20px;
+  }
+  
+  
+ 10 % {
+    left: 244px;
+    top: -40px;
+  }
+  25%{
+  left:300px;
+  top:-80px;
+  }
+  
+  30% {
+    left: 330px;
+    top: -90px;
+  }
+  
+   
+  
+  
+   
+  40%{
+    left: 340px;
+    top: -120px;
+  }
+  
+   
+  45% {
+    left: 340px;
+    top: -120px;
+  }
+  
+  
+  55%{left: 444px;
+    top: -30px;
+    }
+	
+	
+ 75% {
+    left: 900px;
+    top: -100px;
+  }
+  
+  
+  
+ 80%{
+  left:970px;
+  top:-30px;
+  }
+  
+  100%{top:-20px;
+  left:1100px;}
+  
+}
+
+
+        body
+		{
+		   background-image:url("http://harshavardhan.netai.net/trail.jpg");
+		}
+        #left_box
+		{
+			position: absolute;
+			top:30px;
+			width:25%;
+			left:10%;
+			background-color:red;
+			min-height: 160px;
+   			max-height: 520px; 
+   			height: 520px;
+   			transition:  height 0.8s,background-color 1s,left 1.5s;
+   			box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+		}
+		#right1
+		{
+			position: absolute;
+			top:30px;
+			width:50%;
+			left:45%;
+			height:140px;
+			padding: 10px;
+			background-color:red; 
+			min-height: 90px;
+			max-height: 240px;
+			transition:  background-color 1s,left 1.5s,top 0.5s;
+			box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+		}
+		#right2
+		{
+			position: absolute;
+			top:210px;
+			width:50%;
+			left:45%;
+			height:140px;
+			padding: 10px;
+			background-color:green; 
+			min-height: 90px;
+			max-height: 240px;
+			transition:  background-color 1s,left 1.5s, top 0.5s;
+			box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+		}
+		#right3
+		{
+			position: absolute;
+			top:390px;
+			width:50%;
+			left:45%;
+			height:140px;
+			padding: 10px;
+			background-color:blue; 
+			min-height: 90px;
+			max-height: 240px;
+			transition:  background-color 1s,left 1.5s,top 0.5s;
+			box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+		}
+		#left_box .red
+		{
+			position: absolute;
+			left: 7%;
+			top:3%;
+			background-image: url(http://harshavardhan.netai.net/r.png);
+			height:13%;
+			background-repeat: no-repeat;
+			background-position: 50% 50%;
+			background-size: 100% 100%;
+			width:20%;	
+			border:none;
+		}
+		#left_box .green
+		{
+			position: absolute;
+			left: 40%;
+			top:3%;
+			background-image: url(http://harshavardhan.netai.net/g.png);
+			height:13%;
+			background-repeat: no-repeat;
+			background-position: 50% 50%;
+			background-size: 100% 100%;
+			width:20%;	
+			border:none;
+		}
+		#left_box .blue
+		{
+			position: absolute;
+			right: 7%;
+			top:3%;
+			background-image: url(http://harshavardhan.netai.net/b.png);
+			height:13%;
+			background-repeat: no-repeat;
+			background-position: 50% 50%;
+			background-size: 100% 100%;
+			width:20%;	
+			border:none;
+		} 
+	    #left_box .up
+		{
+			position: absolute;
+			left: 23%;
+			bottom:3%;
+			background-image: url(http://harshavardhan.netai.net/up.png);
+			height:14%;
+			background-repeat: no-repeat;
+			background-position: 50% 50%;
+			background-size: 100% 100%;
+			width:20%;	
+			border:none;
+		}
+		#left_box .down
+		{
+			position: absolute;
+			right: 23%;
+			bottom:3%;
+			background-image: url(http://harshavardhan.netai.net/down.png);
+			height:14%;
+			background-repeat: no-repeat;
+			background-position: 50% 50%;
+			background-size: 100% 100%;
+			width:20%;	
+			border:none;
+		}
+		#left_box .right
+		{
+			position: absolute;
+			right: 23%;
+			bottom:30%;
+			background-image: url(http://harshavardhan.netai.net/right.png);
+			height:14%;
+			background-repeat: no-repeat;
+			background-position: 50% 50%;
+			background-size: 100% 100%;
+			width:20%;	
+			border:none;
+			transition: opacity 2s;
+		}
+		#left_box .left
+		{
+			position: absolute;
+			left: 23%;
+			bottom:30%;
+			background-image: url(http://harshavardhan.netai.net/left.png);
+			height:14%;
+			background-repeat: no-repeat;
+			background-position: 50% 50%;
+			background-size: 100% 100%;
+			width:20%;	
+			border:none;
+			transition: opacity 2s;
+		}
+		#right1 .red , #right2 .red , #right3 .red
+		{
+			position: absolute;
+			left: 7%;
+			top:10%;
+			background-image: url(http://harshavardhan.netai.net/r.png);
+			height:39%;
+			background-repeat: no-repeat;
+			background-position: 50% 50%;
+			background-size: 100% 100%;
+			width:10%;	
+			border:none;
+		}
+		#right1 .green , #right2 .green , #right3 .green
+		{
+			position: absolute;
+			left: 20%;
+			top:10%;
+			background-image: url(http://harshavardhan.netai.net/g.png);
+			height:39%;
+			background-repeat: no-repeat;
+			background-position: 50% 50%;
+			background-size: 100% 100%;
+			width:10%;	
+			border:none;
+		}
+		#right1 .blue , #right2 .blue , #right3 .blue
+		{
+			position: absolute;
+			left: 33%;
+			top:10%;
+			background-image: url(http://harshavardhan.netai.net/b.png);
+			height:39%;
+			background-repeat: no-repeat;
+			background-position: 50% 50%;
+			background-size: 100% 100%;
+			width:10%;	
+			border:none;
+		}
+		.red{
+   box-shadow:10px 10px 5px rgba(1, 0, 0, 0.5);
+ }
+ .green{
+   box-shadow:10px 10px 5px rgba(0, 1, 0, 0.5);}
+  .blue{
+   box-shadow:10px 10px 5px rgba(0, 0, 1, 0.5);
+  }
+.red:hover , .green:hover , .blue:hover
+		{
+		    
+			transform: skew(15 deg);
+		}
+.up:hover , .down:hover , .left:hover , .right:hover  
+               {
+			transform: scale(1.2);  
+	    }
+		button
+		{
+			cursor: pointer;
+			border-radius:10px;
+		}
+		div
+		{
+			border-radius: 10px;
+		}		
+		#right1 .up,#right2 .up,#right3 .up
+		{
+			position: absolute;
+			right: 7%;
+			top:10%;
+			background-image: url(up.png);
+			height:40%;
+			background-repeat: no-repeat;
+			background-position: 50% 50%;
+			background-size: 100% 100%;
+			width:8%;	
+			border:none;
+			transition: opacity 2s;
+		}
+		#right1 .down , #right2 .down , #right3.down
+		{
+			position: absolute;
+			right: 7%;
+			bottom:5%;
+			background-image: url(down.png);
+			height:40%;
+			background-repeat: no-repeat;
+			background-position: 50% 50%;
+			background-size: 100% 100%;
+			width:8%;	
+			border:none;
+			transition: opacity 2s;
+		}
+		 #header
+   { 
+     font-size:50px;
+	 margin-top:30px;
+	 margin-bottom:50px;
+	 color:Crimson;
+	 text-align:center;
+	 font-family:Lucida Handwriting;
+	 text-shadow:rgb(110,110,110) 6px 6px 8px;
+   }
+ #left_box{
+   margin-bottom:100px;
+ 
+ }

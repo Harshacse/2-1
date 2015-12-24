@@ -1,0 +1,47 @@
+*{
+   margin:0px;
+   padding:0px;
+   }
+h1{
+   font:bold 20px italic;
+   }
+ h2{
+   font:bold 14px italic;
+   }
+ header,nav,section,article,hgroup,footer,aside{
+ display:block;}
+ body
+ {
+ text-align:center;
+ }
+ #a {
+   border:1px solid black;
+    width:1000px;
+ margin:20px auto;
+ text-align:left;
+	}
+#b{
+  background:blue;
+  border:1px solid green;
+  text-align:center;
+  padding:20px;
+  font:bold 30px italic;
+  color:red;
+  }
+  #c{
+   background:yellow;
+   color:green;
+   padding:5px}
+   #c li{
+    display:inline-block; list-style:none;
+	}
+#d{ 
+   float:left;
+   width:660px;
+   padding:30px;
+ }
+ #g{
+   float:right;
+   width:220px; 
+   margin:20px 0px;
+   padding:30px;}

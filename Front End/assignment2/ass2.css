@@ -1,0 +1,156 @@
+body{
+	margin:0px;
+	padding:0px;
+}
+
+h1{
+	margin-top:6%;
+	font-size: 7vh;
+	font-weight:600;
+	text-shadow: 0.3vh 0.3vh #666;
+	color: #FFF;
+	font-family: tahoma;
+}
+
+p{
+	color: #FFF;
+	text-shadow: 0.2vh 0.2vh #7c6caa;
+	font-size: 3.5vh;
+	font-weight:300;
+	font-family:tahoma;
+	padding-right:10%;
+	padding-left:10%;
+}
+
+ul, li{
+	position:relative;
+	float:right;
+	display:inline;
+	padding-top:1.5vh;
+	padding-left:4vh;
+	font-size:2.5vh;
+	text-transform:justify;
+	bottom:40%;
+	color:#333;
+	font-family: tahoma;
+	font-weight:500;   
+}
+
+.header{
+	position:fixed;
+	width:100%;
+	height:14%;
+	z-index:1000;
+	background-color:white;
+}
+
+.header-content{
+	position:relative;
+	width:70%;
+	margin-left:15%;
+	top:20%;
+	height:60%;
+}
+
+.logo{
+	position:relative;
+	height:100%;
+}
+
+.sign{
+	position:relative;
+	width:20%;
+	height:80%;
+}
+
+.sign{
+	position:relative;
+	width:150%;
+	text-align:center;
+	padding-top:15%;
+	padding-bottom:15%;
+}
+
+.in{
+	border: 0.2vh solid black;
+}
+
+.up{
+	background-color: #400090;
+	border:0.2vh solid #400090;
+	color:white;
+	font-family:'tahoma';
+}
+
+.section1{
+	position:absolute;
+	top:14%;
+	width:100%;
+	height:118%;
+	background: url('../images/content1.jpg') no-repeat;
+	background-size:cover;
+	z-index:10;
+}
+
+.content{
+	position:absolute;
+	width:64%;
+	margin-left:18%;
+	margin-top:10%;
+	height:55%;
+	background: url(1.png);
+	text-align:center;
+}
+
+.user{
+	background: url(1.png) no-repeat 0 100%;
+	background-size:cover;
+	width:75%;
+	height:18%;
+	margin-left:12%;
+}
+.input{
+	position:relative;
+	padding-left:2%;
+	margin-top:0;
+	position:static;
+	font-size: 3vh;
+	height:55%;
+	padding-top:1%;
+	padding-bottom:1%;
+	text-shadow: none;
+	outline:none;
+	width:80%;
+	border:0;
+}
+
+.button{
+	position:relative;
+	font-size:3vh;
+	margin-top:0;
+	height:61.5%;
+	padding-top:2.5%;
+	text-shadow: none;
+	width:14%;
+	background-color: #400090;
+	border:0;
+	font-size: 3.5vh;
+	font-weight:600;
+	color: #FFF;
+}
+
+.footer{
+	position:absolute;
+	width:100%;
+	height:17.5%;
+	background-color:black;
+	bottom:-48%;
+}
+
+.left{
+	float:left;
+}
+
+.right{
+	float:right;
+}

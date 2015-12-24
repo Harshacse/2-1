@@ -1,0 +1,196 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>Playing with Boxes</title>
+     <style text="css">
+	
+        *{
+		   margin:0px;
+		   padding:0px;
+		}
+		body
+		{
+		   width:1300px;
+		   background-image:url('images.jpg') no repeat;
+		}
+		#main_div
+		{
+		   
+		}
+		#left_div
+		{
+		   
+		}
+		#right_div
+		{
+		   
+	    }
+		#right1
+		{
+		   
+		}
+		#right2
+		{
+		   
+		}
+		#right3
+		{
+		   
+		}
+		.red
+		{
+		   background-image:url(r.png) no-repeat;
+		   background-size:100%;
+		}
+		.green
+		{
+		   background-image:url(g.png) no-repeat;
+		   background-size:100%;
+		}
+		.blue
+		{
+		   background-image:url(b.png) no-repeat;
+		   background-size:100%;
+		}
+		.left
+		{
+		   background-image:url(left.png) no-repeat;
+		   background-size:100%;
+		}
+		.right
+		{
+		   background-image:url(right.png) no-repeat;
+		   background-size:100%;
+		}
+		.up
+		{
+		   background-image:url(up.png) no-repeat;
+		   background-size:100%;
+		}
+		.down
+		{
+		   background-image:url(down.png); no repeat;
+		   background-size:100%;
+		}
+     </style>
+</head>
+<body>
+  <div id="main_div">
+    <div id="left_div">
+	    <div class="colors">
+		    <div class= "red">
+			    <button type="button" id="left_red">
+			    </button>
+			</div>
+			<div class= "green">
+			    <button type="button" id="left_green">
+			    </button>
+			</div>
+			<div class= "blue">
+			    <button type="button" id="left_blue">
+			    </button>
+			</div>
+		<div>
+		<div id="directions">
+		    <div class= "left">
+			    <button type="button" id="left_left">
+			    </button>
+			</div>
+		    <div class= "up">
+			    <button type="button" id="left_up">
+			    </button>
+			</div>
+			<div class= "down">
+			    <button type="button" id="left_down">
+			    </button>
+			</div>
+			<div class= "right">
+			    <button type="button" id="left_right">
+			    </button>
+			</div>
+		</div>
+	</div>
+	<div id="right_div">
+	  <div id="right1">
+	    <div class="colors">
+		    <div class= "red">
+			    <button type="button" id="right1_red">
+			    </button>
+			</div>
+			<div class= "green">
+			    <button type="button" id="right1_green">
+			    </button>
+			</div>
+			<div class= "blue">
+			    <button type="button" id="right1_blue">
+			    </button>
+			</div>
+		<div>
+		<div id="directions">
+		    <div class= "up">
+			    <button type="button" id="right1_up">
+			    </button>
+			</div>
+			<div class= "down">
+			    <button type="button" id="right1_down">
+			    </button>
+			</div>
+		</div>
+	  </div>
+	  <div id="right2">
+	    <div class="colors">
+		    <div class= "red">
+			    <button type="button" id="right2_red">
+			    </button>
+			</div>
+			<div class= "green">
+			    <button type="button" id="right2_green">
+			    </button>
+			</div>
+			<div class= "blue">
+			    <button type="button" id="right2_blue">
+			    </button>
+			</div>
+		<div>
+		<div id="directions">
+		    <div class= "up">
+			    <button type="button" id="right2_up">
+			    </button>
+			</div>
+			<div class= "down">
+			    <button type="button" id="right2_down">
+			    </button>
+			</div>
+		</div>
+	  </div>
+	  <div id="right3"><div class="colors">
+		    <div class= "red">
+			    <button type="button" id="right3_red">
+			    </button>
+			</div>
+			<div class= "green">
+			    <button type="button" id="right3_green">
+			    </button>
+			</div>
+			<div class= "blue">
+			    <button type="button" id="right3_blue">
+			    </button>
+			</div>
+		<div>
+		<div id="directions">
+            <div class= "up">
+			    <button type="button" id="right3_up">
+			    </button>
+			</div>
+			<div class= "down">
+			    <button type="button" id="right3_down">
+			    </button>
+			</div>
+		</div>
+	    
+	  </div>
+	</div>
+  </div>
+</body>
+</html>

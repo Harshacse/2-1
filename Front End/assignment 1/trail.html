@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+	<title>It'S mY pORtFoLiO!</title>
+<style type="text/css">
+.container {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  perspective: 1000px;
+}
+
+#cube {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+}
+
+#cube figure {
+  width: 196px;
+  height: 196px;
+  display: block;
+  position: absolute;
+  border: 2px solid black;
+}
+#cube .front  { transform: rotateY(   0deg ) translateZ( 100px ); }
+#cube .back   { transform: rotateX( 180deg ) translateZ( 100px ); }
+#cube .right  { transform: rotateY(  90deg ) translateZ( 100px ); }
+#cube .left   { transform: rotateY( -90deg ) translateZ( 100px ); }
+#cube .top    { transform: rotateX(  90deg ) translateZ( 100px ); }
+#cube .bottom { transform: rotateX( -90deg ) translateZ( 100px ); }
+#cube.show-front  { transform: translateZ( -100px ) rotateY(    0deg ); }
+#cube.show-back   { transform: translateZ( -100px ) rotateX( -180deg ); }
+#cube.show-right  { transform: translateZ( -100px ) rotateY(  -90deg ); }
+#cube.show-left   { transform: translateZ( -100px ) rotateY(   90deg ); }
+#cube.show-top    { transform: translateZ( -100px ) rotateX(  -90deg ); }
+#cube.show-bottom { transform: translateZ( -100px ) rotateX(   90deg ); }
+#cube { transition: transform 1s; }
+</style>
+<body>
+<section class="container">
+  <div id="cube">
+    <figure class="front"><img src="motto6.jpg" title="" width="500px" height="330px"></img></figure>
+    <figure class="back"><img src="motto5.png" title="" width="500px" height="330px"></img></figure>
+    <figure class="right"><img src="motto4.png" title="" width="500px" height="330px"></img></figure>
+    <figure class="left"><img src="motto3.png" title="" width="500px" height="330px"></img></figure>
+    <figure class="top"><img src="motto2.png" title="" width="500px" height="330px"></img></figure>
+    <figure class="bottom"><img src="motto1.png" title="" width="500px" height="330px"></img></figure>
+  </div>
+</section>
+</body>
+</head>

@@ -1,0 +1,129 @@
+var check=1;
+     function left_fun()
+	 {
+	   var id1=document.getElementById(left_div),id2=document.getElementById(right_div);
+	   if(check==1) 
+	   alert('Oops! Operation not possible!!');
+	   else
+	   {
+	     document.getElementById(left_div).style.left=50%;
+		 document.getElementById(right_div).style.right=50%;
+	   }
+	 }
+	 function right_fun()
+	 {
+	   var id1=document.getElementById(left_div),id2=document.getElementById(right_div);
+	   if(check==0) 
+	   alert('Oops! Operation not possible!!');
+	   else
+	   {
+	     document.getElementById(left_div).style.right=50%;
+		 document.getElementById(right_div).style.left=50%;
+	   }
+	 }
+	 
+	 function up_fun1()
+	 {
+	    var element=document.getElementById('blue');
+	    element.style.(margin-bottom)=element.style.(margin-bottom)-10;
+	 }
+	 function down_fun1()
+	 {
+	    var element=document.getElementById('blue');
+	    if(element.style.margin-bottom==50)
+		alert('Oops! Operation not possible!!');
+		else
+		element.style.(margin-bottom)=10;
+	 }
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+300
+330
+340
+340
+444
+900
+970
+1100
+LKVMLBKGK	 
+	 
+	 
+	 
+	 
+	 
+	 function r1()
+		{
+			var x= document.getElementById("box1");
+			x.style.backgroundColor = "maroon";
+		}
+		function g1()
+		{
+			var x= document.getElementById("box1");
+			x.style.backgroundColor = "green";
+		}
+		function b1()
+		{
+			var x= document.getElementById("box1");
+			x.style.backgroundColor = "blue";
+		}
+		function r2()
+		{
+			var x= document.getElementById("box2");
+			x.style.backgroundColor = "maroon";
+		}
+		function g2()
+		{
+			var x= document.getElementById("box2");
+			x.style.backgroundColor = "green";
+		}
+		function b2()
+		{
+			var x= document.getElementById("box2");
+			x.style.backgroundColor = "blue";
+		}
+		function r3()
+		{
+			var x= document.getElementById("box3");
+			x.style.backgroundColor = "maroon";
+		}
+		function g3()
+		{
+			var x= document.getElementById("box3");
+			x.style.backgroundColor = "green";
+		}
+		function b3()
+		{
+			var x= document.getElementById("box3");
+			x.style.backgroundColor = "blue";
+		}
+		function r4()
+		{
+			var x= document.getElementById("box4");
+			x.style.backgroundColor = "maroon";
+		}
+		function g4()
+		{
+			var x= document.getElementById("box4");
+			x.style.backgroundColor = "green";
+		}
+		function b4()
+		{
+			var x= document.getElementById("box4");
+			x.style.backgroundColor = "blue";
+		}
+	 
+	 
+	 

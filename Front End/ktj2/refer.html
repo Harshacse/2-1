@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Assignment 2</title>
+<!--<LINK REL=StyleSheet HREF="style.css"-->
+<style>
+#container{
+	padding-top:10px;
+	width:1310px;
+	height:auto;
+	margin:0 auto;
+}
+#greenbar{
+	width:1310px;
+	height:15px;
+	background-color:rgb(46,204,113);
+}
+#headerimg{
+	position:absolute;
+	top:20px;
+	background-image:url(headerimg.png);
+	background-size:100%;
+	width:1310px;
+	height:475px;
+	z-index:-1;
+}
+
+#notify{
+	position:relative;
+	top:120px;
+	left:230px;
+	width:400px;
+	height:200px;
+	padding:5px;
+}
+#headericon1{
+	position: relative;
+	left:10px;
+	top: 75px;
+	width:45px;
+	height:45px;
+	background-color: rgba(0,0,0,0.5);
+	background-image: url("apple.png");
+	background-repeat: no-repeat;
+	background-size: 40% 50%;
+	background-position: 50% 50%;
+	border-radius: 50%;
+}
+#headericon2{
+	position: relative;
+	left:75px;
+	top: 30px;
+	width:45px;
+	height:45px;
+	background-color: rgba(0,0,0,0.5);
+	background-image: url("android.png");
+	background-repeat: no-repeat;
+	background-size: 40% 50%;
+	background-position: 50% 50%;
+	border-radius: 50%;
+}
+#headericon3{
+	position: relative;
+	left:140px;
+	top: -16px;
+	width:45px;
+	height:45px;
+	background-color: rgba(0,0,0,0.5);
+	background-image: url("windows.png");
+	background-repeat: no-repeat;
+	background-size: 40% 50%;
+	background-position: 50% 50%;
+	border-radius: 50%;
+}
+#headericon1:hover,#headericon2:hover, #headericon3:hover{
+	cursor:pointer;
+	cursor:hand;
+	background-color:rgb(46,204,113);
+}
+
+#center{
+	position:absolute;
+	height:500px;
+	width:1310px;
+	top:495px;
+}
+#centerleft{
+	position:absolute;
+	height:100%;
+	width:436.67px;
+	top:0px;
+	left:0px;
+}
+#centermiddle{
+	position:absolute;
+	height:100%;
+	width:436.67px;
+	top:0px;
+	left:436.67px;
+}
+#centerright{
+	position:absolute;
+	height:100%;
+	width:436.67px;
+	top:0px;
+	right:0px;
+}
+#centerleftgreencircle{
+	position:absolute;
+	height:20%;
+	width:20%;
+	left:40%;
+	top:20%;
+	background-color:rgb(46,204,113);
+	background-repeat:no-repeat;
+	background-image:url("icon1.png");
+	background-size:50%50%;
+	background-position:50%50%;
+	border-radius:50%;
+}
+#centerlefttext{
+	position:absolute;
+	top:50%;
+	height:auto;
+	width:95%;
+	padding-left:10px;
+}
+#centerrighttext{
+	position:absolute;
+	top:50%;
+	height:auto;
+	width:95%;
+	padding-left:10px;
+}
+#centermiddletext{
+	position:absolute;
+	top:50%;
+	height:auto;
+	width:95%;
+	padding-left:10px;
+}
+.title{
+	float:top;
+	text-align:center;
+	font-size:22px;
+	font-decoration:bold;
+	font-family:Tahoma;
+}
+
+.text{
+	text-align:center;
+	font-size:17px;
+	font:family:Tahoma;
+	color:rgba(132,132,132,1);
+}
+#centermiddlegreencircle{
+	position:absolute;
+	height:20%;
+	width:20%;
+	left:40%;
+	top:20%;
+	background-color:rgb(46,204,113);
+	background-repeat:no-repeat;
+	background-image:url("icon2.png");
+	background-size:50%50%;
+	background-position:50%50%;
+	border-radius:50%;
+}
+#centerrightgreencircle{
+	position:absolute;
+	height:20%;
+	width:20%;
+	left:40%;
+	top:20%;
+	background-color:rgb(46,204,113);
+	background-repeat:no-repeat;
+	background-image:url("icon3.png");
+	background-size:50%50%;
+	background-position:50%50%;
+	border-radius:50%;
+}	
+#description{
+	position:absolute;
+	top:995px;
+	height:450px;
+	width:1310px;
+	background-color:rgb(227,218,203);
+	border:5px;
+	border-color:yellow;
+}	
+
+#descriptiontext{
+	position:relative;
+	padding-left:35px;
+	padding-top:65px;
+	width:47%;
+	height:85%;
+}
+#boxdesign{
+	border:none;
+	width:200px;
+	height:35px;
+	border-radius:10px 0px 0px 10px;
+	padding-left:10px;
+	outline:none;
+} 
+#button{
+	position:relative;
+	top:-38px;
+	left:211px;
+	width:80px;
+	height:30px;
+	background-color:rgb(46,204,113);
+	padding:10px 5px 0px 30px;
+}
+.buttontext{
+	color:white;
+	font-family:Arial;
+	font-size:20px;
+	font-decoration:bold;
+	border-radius:0px 10px 10px 0px;
+}
+#button:hover,#centerleftgreencircle:hover,
+#centermiddlegreencircle:hover,#centerrightgreencircle:hover{
+	transition:0.2s ease;
+	cursor:pointer;
+	cursor:hand;
+	background-color:blue;
+	opacity:.1;
+}
+#videobox{
+	position:absolute;
+	width:45%;
+	top:0px;
+	left:53%;
+	height:90%;
+	padding:25px 0px 25px 25px;
+	background-image:url("videobox.gif");
+	background-size:90%85%;
+	background-repeat:no-repeat;
+	background-position:50%50%;
+}
+#videobox:hover{
+	cursor:pointer;
+	cursor:hand;
+}
+#centerleftgreencircle:hover{
+	transition:0.2s ease;
+	cursor:pointer;
+	cursor:hand;
+	background-color:blue;
+	opacity:.1;
+}
+
+#testimonials{
+	position:absolute;
+	top:1445px;
+	height:650px;
+	width:1310px;
+}
+#para{
+	position:relative;
+	width:100%;
+	padding:75px 0px 0px 0px;
+	height:auto;
+}
+#pictures{
+	position:absolute;
+	width:100%;
+	height:50px;
+	padding-top:30px;
+}
+#pic1{
+	position:absolute;
+	left:80px;
+	width:50px;
+	height:50px;
+	background-image:url("pic1.png");
+	background-position:80%20%;
+	background-repeat:no-repeat;
+
+}
+#pic2{
+	position:absolute;
+	left:135px;
+	width:50px;
+	height:50px;
+	background-image:url("pic2.png");
+	background-position:60%40%;
+	background-repeat:no-repeat;
+	opacity:1;
+}
+	
+#pic3{
+	position:absolute;
+	left:190px;
+	width:50px;
+	height:50px;
+	background-image:url("pic3.png");
+	background-position:60%40%;
+	background-repeat:no-repeat;
+	opacity:1;
+}
+#pic4{
+	position:absolute;
+	left:245px;
+	width:50px;
+	height:50px;
+	background-image:url("pic4.gif");
+	background-position:50%50%;
+	background-repeat:no-repeat;
+}
+#pic5{
+	position:absolute;
+	left:300px;
+	width:50px;
+	height:50px;
+	background-image:url("pic5.gif");
+	background-position:50%50%;
+	background-repeat:no-repeat;
+}
+#pic6{
+	position:absolute;
+	left:355px;
+	width:50px;
+	height:50px;
+	background-image:url("pic6.png");
+	background-position:50%50%;
+	background-repeat:no-repeat;
+}
+#pic7{
+	position:absolute;
+	left:410px;
+	width:50px;
+	height:50px;
+	background-image:url("pic7.gif");
+	background-position:50%50%;
+	background-repeat:no-repeat;
+}
+#pic8{
+	position:absolute;
+	left:465px;
+	width:50px;
+	height:50px;
+	background-image:url("pic8.png");
+	background-position:65%10%;
+	background-repeat:no-repeat;
+}
+#pic9{
+	position:absolute;
+	left:520px;
+	width:50px;
+	height:50px;
+	background-image:url("pic9.png");
+	background-position:65%10%;
+	background-repeat:no-repeat;
+}
+#pic10{
+	position:absolute;
+	left:575px;
+	width:50px;
+	height:50px;
+	background-image:url("pic10.png");
+	background-position:80%10%;
+	background-repeat:no-repeat;
+}
+#pic11{
+	position:absolute;
+	left:630px;
+	width:50px;
+	height:50px;
+	background-image:url("pic11.png");
+	background-position:30%20%;
+	background-repeat:no-repeat;
+}
+#pic12{
+	position:absolute;
+	left:685px;
+	width:50px;
+	height:50px;
+	background-image:url("pic12.png");
+	background-position:50%50%;
+	background-repeat:no-repeat;
+}
+#pic13{
+	position:absolute;
+	left:740px;
+	width:50px;
+	height:50px;
+	background-image:url("pic13.png");
+	background-position:50%50%;
+	background-repeat:no-repeat;
+}
+#pic14{
+	position:absolute;
+	left:795px;
+	width:50px;
+	height:50px;
+	background-image:url("pic14.png");
+	background-position:50%50%;
+	background-repeat:no-repeat;
+}
+#pic15{
+	position:absolute;
+	left:850px;
+	width:50px;
+	height:50px;
+	background-image:url("pic15.png");
+	background-position:50%50%;
+	background-repeat:no-repeat;
+}
+#pic16{
+	position:absolute;
+	left:905px;
+	width:50px;
+	height:50px;
+	background-image:url("pic16.png");
+	background-position:50%50%;
+	background-repeat:no-repeat;
+}
+#pic17{
+	position:absolute;
+	left:960px;
+	width:50px;
+	height:50px;
+	background-image:url("pic17.png");
+	background-position:50%50%;
+	background-repeat:no-repeat;
+}
+#pic18{
+	position:absolute;
+	left:1015px;
+	width:50px;
+	height:50px;
+	background-image:url("pic18.png");
+	background-position:50%50%;
+	background-repeat:no-repeat;
+}
+#pic19{
+	position:absolute;
+	left:1070px;
+	top:30px;
+	width:50px;
+	height:50px;
+	background-image:url("pic19.png");
+	background-position:50%50%;
+	background-repeat:no-repeat;
+}
+#pic20{
+	position:absolute;
+	left:1125px;
+	top:30px;
+	width:50px;
+	height:50px;
+	background-image:url("pic20.png");
+	background-position:50%50%;
+	background-repeat:no-repeat;
+}
+#pic21{
+	position:absolute;
+	left:1180px;
+	top:30px;
+	width:50px;
+	height:50px;
+	background-image:url("pic21.png");
+	background-position:50%50%;
+	background-repeat:no-repeat;
+}
+#pic1:hover,#pic2:hover,#pic3:hover,#pic4:hover,#pic5:hover,#pic6:hover,#pic7:hover,#pic8:hover,#pic9:hover,#pic10:hover,#pic11:hover,#pic12:hover
+,#pic13:hover,#pic14:hover,#pic15:hover,#pic16:hover,#pic17:hover,#pic18:hover,#pic19:hover,#pic20:hover,#pic21:hover{
+	transition: 0.2s ease;
+	cursor:pointer;
+	cursor:hand;
+	opacity:.6;
+}
+
+#byenote{
+	position:absolute;
+	top:325px;
+	width:100%;
+	padding:5px;
+	height:auto;
+}
+#contacts{
+	position:absolute;
+	top:500px;
+	width:100%;
+	padding:5px;
+	height:auto;
+}
+#contactsicons{
+	position:relative;
+	width:450px;
+	height:100px;
+	margin: 0 auto;
+}
+#contacticon1{
+	position:absolute;
+	left:20px;
+	width:50px;
+	height:50px;
+	background-color:black;
+	background-image:url("twitter.png");
+	background-size:50%50%;
+	background-repeat:no-repeat;
+	background-position:50%50%;
+	border-radius:50%;
+	opacity:.4;
+}
+#contacticon2{
+	position:absolute;
+	left:90px;
+	width:50px;
+	height:50px;
+	background-color:black;
+	background-image:url("facebook.png");
+	background-size:50%50%;
+	background-repeat:no-repeat;
+	background-position:50%50%;
+	border-radius:50%;
+	opacity:.4;
+}
+#contacticon3{
+	position:absolute;
+	left:160px;
+	width:50px;
+	height:50px;
+	background-color:black;
+	background-image:url("pinterest.png");
+	background-size:50%50%;
+	background-repeat:no-repeat;
+	background-position:50%50%;
+	border-radius:50%;
+	opacity:.4;
+}
+#contacticon4{
+	position:absolute;
+	left:230px;
+	width:50px;
+	height:50px;
+	background-color:black;
+	background-image:url("googleplus.png");
+	background-size:50%50%;
+	background-repeat:no-repeat;
+	background-position:50%50%;
+	border-radius:50%;
+	opacity:.4;
+}
+#contacticon5{
+	position:absolute;
+	left:300px;
+	width:50px;
+	height:50px;
+	background-color:black;
+	background-image:url("linkedin.png");
+	background-size:50%50%;
+	background-repeat:no-repeat;
+	background-position:50%50%;
+	border-radius:50%;
+	opacity:.4;
+}
+#contacticon6{
+	position:absolute;
+	left:370px;
+	width:50px;
+	height:50px;
+	background-color:black;
+	background-image:url("youtube.png");
+	background-size:50%50%;
+	background-repeat:no-repeat;
+	background-position:50%50%;
+	border-radius:50%;
+	opacity:.4;
+}
+
+#contacticon1:hover,#contacticon2:hover,#contacticon3:hover,#contacticon4:hover,#contacticon5:hover,#contacticon6:hover{
+	cursor:pointer;
+	cursor:hand;
+	background-color:rgb(46,204,113);
+}
+#footer{
+	position:absolute;
+	top:2100px;
+	width:1310px;
+	height:75px;
+	background-color:rgb(227,218,203);
+
+}
+
+#footertext{
+	width:400px;
+	margin:0 auto;
+	padding:25px;
+}
+.text1{
+	text-align:center;
+	font-size:14px;
+	font:family:Arial;
+	color:rgba(132,132,132,1);
+	text-decoration:none;
+	
+}
+
+</style>
+	
+<body>
+<div id="container">
+<!-------------------Header of webpage ---------------->
+
+
+
+	<div id="greenbar">
+	</div>
+	<div id="headerimg">
+	<img src="hand.png" style="position:absolute;top:75px;left:750px;width:360px;height:400px;" >
+	<img src="header1.png" style="position:absolute;background-size:contain;top:120px;left:803px;width:135px;height:205px;">
+	</div>
+	<div id="notify">
+	<img src="notify.png" style="position:absolute;width:150px;height:75px;" >
+	<p style="position:relative;top:80px;font-size:17px;font-family:arial;color:white;">A great new free psd theme to showcase your new <br>application</p>
+	<div id="headericon1">
+	</div>
+	<div id="headericon2">
+	</div>
+	<div id="headericon3">
+	</div>
+	</div>
+
+<!-----------------------Center of webpage ------------------------>
+		
+	<div id="center">
+	<div id="centerleft">
+		<div id="centerleftgreencircle">
+		</div>
+		<div id="centerlefttext">
+		<div class="title">
+		Editable Theme<br><br>
+		</div>
+		<div class="text">
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br> Suspendisse fringilla fringilla.
+		</div>
+		</div>
+
+		</div>
+
+		<div id="centermiddle">
+		<div id="centermiddlegreencircle">
+		</div>
+		<div id="centermiddletext">
+			<div class="title">
+			Flat Design<br><br>
+			</div>
+			<div class="text">
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br> Suspendisse fringilla fringilla.
+			</div>
+			</div>
+
+		</div>
+
+		<div id="centerright">
+		<div id="centerrightgreencircle">
+		</div>
+		<div id="centerrighttext">
+			<div class="title">
+			Reach Your Audience<br><br>
+			</div>
+			<div class="text">
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br> Suspendisse fringilla fringilla.
+			</div>
+			</div>
+
+		</div>
+		</div>
+
+<!-------------------------description box---------------------->
+
+<div id="description">
+	<div id="descriptiontext">
+	<div class="title" style="text-align:left">
+	Get Notified for Updates!<br><br><br>
+	</div>
+	<div class="text" style="text-align:left;font-size:15px;font-family:Arial;">
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fringilla fringilla nisl<br>
+	congue congue. Maecenas nec condimentum libero, at elementum mauris. Phasellus eget nisi <br>
+	dapibus, ultricies nisi at, hendrerit risusuis omare luctus id sollicitudin ante lobortis at.<br><br>
+	</div>
+	<input type="text" placeholder="Email Address" id="boxdesign"> 
+	<div id="button" class="buttontext">
+	Notify
+	</div>
+	</div>
+
+	<div id="videobox">
+	</div>
+</div>
+
+<!-----------------------------Testimonials -------------------------------->
+<div id="testimonials">
+	<div id="para">
+	<p class="text" style="font-size:15px;font-style:italic;">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris interdum velit vitae nulla molestie eu commodo nulla dapib us.<br>
+	 Donec id sollicitudin urna. Integer at dui ac leo fermentum varius eleifend ut."</p><br>
+	<div class="title">
+	Jane Hunt
+	</div>
+	</div>
+
+	<div id="pictures">
+	
+	<div id="pic1"></div>
+	<div id="pic2"></div>
+	<div id="pic3"></div>
+	<div id="pic4"></div>
+	<div id="pic5"></div>
+	<div id="pic6"></div>
+	<div id="pic7"></div>
+	<div id="pic8"></div>
+	<div id="pic9"></div>
+	<div id="pic10"></div>
+	<div id="pic11"></div>
+	<div id="pic12"></div>
+	<div id="pic13"></div>
+	<div id="pic14"></div>
+	<div id="pic15"></div>
+	<div id="pic16"></div>
+	<div id="pic17"></div>
+	<div id="pic18"></div>	
+`	<div id="pic19"></div>
+	<div id="pic20"></div>
+	<div id="pic21"></div>
+
+	</div>
+
+<div id="byenote">
+	<div class="title">
+	Say Hi & Get in Touch<br><br>
+	</div>
+	<div class="text">
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit suspendisse.
+	</div>
+
+</div>
+
+<div id="contacts">
+	<div id="contactsicons">
+		<div id="contacticon1">
+		</div>
+		<div id="contacticon2">
+		</div>
+		<div id="contacticon3">
+		</div>
+		<div id="contacticon4">
+		</div>
+		<div id="contacticon5">
+		</div>
+		<div id="contacticon6">
+		</div>
+	</div>	
+
+</div>
+
+</div>
+
+<!----------------------------Footer-------------------------->
+<div id="footer">
+	<div id="footertext">
+		<div class="text1">
+		 <a style="text-decoration:none;font-family:Arial" href=""> Contact</a> 
+  		&nbsp;
+		<a style="text-decoration:none;font-family:Arial" href=""> Download</a> 
+		&nbsp; 
+ 		<a style="text-decoration:none;font-family:Arial" href=""> Press</a> 
+		&nbsp; 
+		<a style="text-decoration:none;font-family:Arial" href=""> Email</a> 
+		&nbsp; 
+		<a style="text-decoration:none;font-family:Arial" href=""> Support</a> 
+		&nbsp;
+		<a style="text-decoration:none;font-family:Arial" href=""> Privacy-Policy</a> 
+		</div>
+	</div>
+
+</div>
+
+</div>
+</body>
+</html>

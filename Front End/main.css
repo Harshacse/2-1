@@ -1,0 +1,135 @@
+*{ margin:0px;
+	padding:0px; }
+	
+header, section, footer, aside, nav, article, hgroup{
+	display:block;
+	}
+
+body{
+	text-align:center;
+	background-image:url(bg.jpg);
+	}
+	
+#Div1{
+	border: 2px solid black;
+	width:1000px;
+	margin:20px auto;
+	text-align:left;
+	}
+
+#top_header{
+	background:#2f4f4f;
+	border: 2px solid blue;
+	
+	padding:20px;
+	
+	}
+#top_h{
+	color:black;
+	text-align:center;
+	font-size:50px;
+	font-style:Algerian;
+	text-shadow:rgb(110,110,110) -5px 5px 5px;
+	-webkit-transition:font-size 0.5s, color 1s;
+	}
+#top_h:hover{
+	font-size:70px;
+	color:#1e90ff;
+	}
+#mapping{
+	background:black;
+	color:black;
+	font-size:25px;
+	text-align:center;
+	border:2px solid yellow;
+	display:-webkit-box;
+	-webkit-box-orient:horizontal;
+	width:1000px;
+	-webkit-box-pack:center;
+    }
+#gal{
+	border: 2px solid #dda0dd;
+	background:#708090;
+	padding:20px;
+	margin:10px;
+	width:100px;
+	height:20px;
+	-webkit-border-radius:10px;
+	opacity:0.3;
+	-webkit-transition:opacity 1s, background 1s;
+	}
+#gal:hover{
+	opacity:1;
+	background:#1e90ff;
+	}
+#eve{
+	border: 2px solid #dda0dd;
+	background:#708090;
+	padding:20px;
+	margin:10px;
+	width:100px;
+	height:20px;
+	-webkit-border-radius:10px;
+	opacity:0.3;
+	-webkit-transition:-webkit-opacity 1s, background 1s;
+	}
+#eve:hover{
+	opacity:1;
+	background:#1e90ff;
+	}
+#ee{
+	border: 2px solid #dda0dd;
+	background:#708090;
+	padding:20px;
+	margin:10px;
+	width:100px;
+	height:20px;
+	-webkit-border-radius:10px;
+	opacity:0.3;
+	-webkit-transition:-webkit-opacity 1s, background 1s;
+	}
+#ee:hover{
+	opacity:1;
+	background:#1e90ff;
+	}
+#spo{
+	border: 2px solid #dda0dd;
+	background:#708090;
+	padding:20px;
+	margin:10px;
+	width:100px;
+	height:20px;
+	-webkit-border-radius:10px;
+	opacity:0.3;
+	-webkit-transition:-webkit-opacity 1s, background 1s;
+	}
+#spo:hover{
+	opacity:1;
+	background:#1e90ff;
+	}
+#main_sec{
+	float:left;
+	width:660px;
+	margin:30px;
+	}
+
+#side_news{
+	float:left;
+	width:220px;
+	margin: 20px 0px;
+	padding: 30px;
+	background: black;
+	color:white;
+	}
+#down_footer{
+	clear:both;
+	text-align:center;
+	padding:20px;
+	border-top:2px solid green;
+	}
+article {
+	background: #4169e1;
+	border: 1px solid red;
+	padding:20px;
+	}
+	

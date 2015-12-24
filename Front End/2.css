@@ -1,0 +1,303 @@
+*{ margin:0px;
+	padding:0px; }
+body{
+	width:100%;
+	display:-webkit-box;
+	-webkit-box-pack:center;
+	background-color:#66CCCC;    	                    
+	margin:0px auto;
+	margin-left:0px;
+	}
+#main1_div{
+       display:-webkit-box;
+	   -webkit-box-orient:vertical;
+	   -webkit-box-orient:center;
+}
+#main_div{
+       max-width:1000px;
+	   display:-webkit-box;
+	   -webkit-box-orient:horizontal;
+	   
+    }
+#description{
+     border:2px solid blue;
+	 background-color:gray;
+	 font:bold 15px tahoma;
+	 padding:10px;
+	 color:brown;
+	 width:380px;
+	 }
+#top_header{
+       color: red;                                    
+       font:40px italian;
+       text-shadow:rgb(110,110,110) 10px 10px 6px;
+	   text-align:center;
+     }
+#hello{
+ color:gray; 
+ font-size:20px;
+ text-align:center;
+ }
+
+#left_div{
+  border:5px solid green;
+   background-color:#2f4f4f;                            
+  width:400px;
+   }
+   #1{
+   border:1px solid blue;
+   padding: 5px;
+   font-size:10px;      }                        
+table{
+ border:2px solid blue;
+ background-color:green;              
+ 
+ }
+ #right_div{
+   border:5px solid green;
+   background-color:#2f4f4f;
+   display:-webkit-box;
+   -webkit-box-orient:vertical;
+   margin:20px;
+   margin-top:0px;
+   padding:10px;
+   -webkit-box-flex:1;
+   }
+   #choices{
+     border:2px solid blue;                /*if i click childhood my text should go to childhood*/
+	 background-color:gray;                /*similarly if i clickyo kgp screen should move to yo kgp*/
+	 font:bold 15px tahoma;
+	 display:-webkit-box;
+    -webkit-box-orient:vertical;
+	 color:blue;
+	 padding:10px;
+   }
+   
+   #cha{
+    border:3px solid green;
+	margin:5px;
+	background:-webkit-radial-gradient(center,circle,yellow 0%,#2f4f4f 30%);
+	text-align:center;
+	padding:10px;
+	-webkit-border-radius:10px;
+	}
+	#chb{
+    border:3px solid green;
+	margin:5px;
+	background:-webkit-radial-gradient(center,circle,yellow 0%,#2f4f4f 40%);
+	text-align:center;
+	padding:10px;
+	-webkit-border-radius:10px;}
+	#chc{
+    border:3px solid green;
+	margin:5px;
+	text-align:center;
+	background:-webkit-radial-gradient(center,circle,yellow 0%,#2f4f4f 70%);
+	padding:10px;
+	-webkit-border-radius:10px;}
+	#chd{
+    border:3px solid green;
+	margin:5px;
+	background:-webkit-radial-gradient(center,circle,yellow 0%,#2f4f4f 45%);
+	text-align:center;
+	padding:10px;
+	-webkit-border-radius:10px;}
+	#che{
+    border:3px solid green;
+	margin:5px;
+	background:-webkit-radial-gradient(center,circle,yellow 0%,#2f4f4f 45%);
+	text-align:center;
+	padding:10px;
+	-webkit-border-radius:10px;}
+	#chf{
+    border:3px solid green;
+	margin:5px;
+	background:-webkit-radial-gradient(center,circle,yellow 0%,#2f4f4f 45%);
+	text-align:center;
+	padding:10px;
+	-webkit-border-radius:10px;}
+	#chg{
+    border:3px solid green;
+	margin:5px;
+	background:-webkit-radial-gradient(center,circle,yellow 0%,#2f4f4f 65%);
+	text-align:center;
+	padding:10px;
+	-webkit-border-radius:10px;}
+	#chh{
+    border:3px solid green;
+	margin:5px;
+	background:-webkit-radial-gradient(center,circle,yellow 0%,#2f4f4f 50%);
+	text-align:center;
+	padding:10px;
+	-webkit-border-radius:10px;}
+	#chi{
+    border:3px solid green;
+	margin:5px;
+	background:-webkit-radial-gradient(center,circle,yellow 0%,#2f4f4f 40%);
+	text-align:center;
+	padding:10px;
+	-webkit-border-radius:10px;
+	}
+	
+	#head1{
+	border:3px solid green;
+	margin:5px;
+    color: purple;
+	background-color:gray;
+	text-align:center;
+	padding:10px;
+	font:25px;
+	-webkit-border-radius:10px;}
+	#head2{
+	border:3px solid green;
+	margin:5px;
+    color: purple;
+	background-color:gray;
+	text-align:center;
+	padding:10px;
+	-webkit-border-radius:10px;}
+	#head3{
+	border:3px solid green;
+	margin:5px;
+    color: purple;
+	background-color:gray;
+	text-align:center;
+	padding:10px;
+	-webkit-border-radius:10px;}
+	#head4{
+	border:3px solid green;
+	margin:5px;
+    color: purple;
+	background-color:gray;
+	text-align:center;
+	padding:10px;
+	-webkit-border-radius:10px;}
+	
+	#head5{
+	border:3px solid green;
+	margin:5px;
+    color: purple;
+	background-color:gray;
+	text-align:center;
+	padding:10px;
+	-webkit-border-radius:10px;}
+	#head6{
+	border:3px solid green;
+	margin:5px;
+    color: purple;
+	background-color:gray;
+	text-align:center;
+	padding:10px;
+	-webkit-border-radius:10px;}
+	#head7{
+	border:3px solid green;
+	margin:5px;
+    color: purple;
+	background-color:gray;
+	text-align:center;
+	padding:10px;
+	-webkit-border-radius:10px;}
+	#head8{
+	border:3px solid green;
+	margin:5px;
+    color: purple;
+	background-color:gray;
+	text-align:center;
+	padding:10px;
+	-webkit-border-radius:10px;}
+	#head9{
+	border:3px solid green;
+	margin:5px;
+    color: purple;
+	background-color:gray;
+	text-align:center;
+	padding:10px;
+	-webkit-border-radius:10px;}
+	#p1{
+	border:3px solid red;
+	padding:10px;
+	background-color:yellow;
+	font:bold 15px tahoma;
+	color:blue;}
+	#p1{
+	border:3px solid red;
+	padding:10px;
+	background-color:yellow;
+	font:bold 15px tahoma;
+	color:blue;}
+	#p1{
+	border:3px solid red;
+	padding:10px;
+	background-color:yellow;
+	font:bold 15px tahoma;
+	color:blue;}
+	#p1{
+	border:3px solid red;
+	padding:10px;
+	background-color:yellow;
+	font:bold 15px tahoma;
+	color:blue;}
+	#p1{
+	border:3px solid red;
+	padding:10px;
+	background-color:yellow;
+	font:bold 15px tahoma;
+	color:blue;}
+	#p2{
+	border:3px solid red;
+	padding:10px;
+	background-color:yellow;
+	font:bold 15px tahoma;
+	color:blue;}
+	#p3{
+	border:3px solid red;
+	padding:10px;
+	background-color:yellow;
+	font:bold 15px tahoma;
+	color:blue;}
+	#p4{
+	border:3px solid red;
+	padding:10px;
+	background-color:yellow;
+	font:bold 15px tahoma;
+	color:blue;}
+	#p5{
+	border:3px solid red;
+	padding:10px;
+	background-color:yellow;
+	font:bold 15px tahoma;
+	color:blue;}
+	#p6{
+	border:3px solid red;
+	padding:10px;
+	background-color:yellow;
+	font:bold 15px tahoma;
+	color:blue;}
+	#p7{
+	border:3px solid red;
+	padding:10px;
+	background-color:yellow;
+	font:bold 15px tahoma;
+	color:blue;}
+	#p8{
+	border:3px solid red;
+	padding:10px;
+	background-color:yellow;
+	font:bold 15px tahoma;
+	color:blue;}
+	#p9{
+	border:3px solid red;
+	padding:10px;
+	background-color:yellow;
+	font:bold 15px tahoma;
+	color:blue;}
+	#foot{
+	border:5px solid red;
+	padding:10px;
+	display:-webkit-box;
+	-webkit-box-orient:vertical;
+	-webkit-box-pack:center;
+	background-color:blue;
+	color:black;}
+	#footp{
+	text-align:center;}

@@ -1,0 +1,139 @@
+*{
+	margin: 0px;
+}
+a{
+	text-decoration: none;
+	color:black;
+}
+li{
+	display: inline;
+}
+#yahoo{
+    float:left;}
+#head{
+	width: 100%;
+	background-color: white;
+	height: 85px;
+	border-bottom: 1px solid #E6E6E6;
+	position: fixed;
+}
+#header{
+    display:flex;
+  	min-width: 880px;
+  	margin: auto;
+  	margin-left: 214.5px;
+  	padding-top: 0px;
+  	display: block;
+  	position: relative;
+  	padding-left: 20px;
+	padding-right: 20px;
+	height: 66px;
+}
+#center2{
+	margin-left: auto;
+    margin-right: auto;
+	width: 880px;
+	display:flex;
+}
+#menu{
+	float: right;
+	margin-left: 244px;
+	width: 529px;
+	height: 38px;
+	margin-top: 24px;
+}
+#menu ul{
+	padding-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	line-height: 39px;
+}
+#menu ul li{
+	margin-left: 21px;
+	line-height: 39px;
+}
+#menu ul li:hover{
+	text-decoration: underline;
+}
+#menu ul li a{
+	font-family: 'Helvetica-Neue', Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	color: #333333;
+}
+#li4{
+	border: 1px solid #666;
+	font-weight: 700;
+	letter-spacing: 1px;
+	font-family: Helvetica-Neue;
+}
+#li5{
+	background-color: #400090;
+	letter-spacing: 1px;
+	font-weight: 700;
+	font-family: Helvetica-Neue;
+}
+#main{
+	clear: both;
+  	min-width: 1349px;
+  	margin: 0px;
+  	display: block;
+	padding-top: 211px;
+	background-image: url(1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding-bottom: 150px;
+}
+.center{
+	clear: both;
+  	width: 855px;
+  	margin: auto;
+  	display: block;
+}
+#content{
+	height: 280px;
+	width: 735px;
+	padding: 60px;
+	background-image: url("i3.png");
+	color: white;
+	font-family: 'Helvetica-Neue', Helvetica, Arial, sans-serif;
+	text-align: center;
+}
+#content-header{
+	margin-bottom:20px;
+	font-size: 48px;
+	font-weight: 700;
+	text-shadow: 2px 2px #666;
+}
+#content-body{
+	font-size: 18px;
+	text-shadow: 1px 1px #7c6caa;
+}
+#content-input{
+	clear: both;
+	margin: auto;
+	margin-top: 36px;
+	display: flex;
+	width: 574px;
+	height: 64px;
+	background-image: url("hero_usernamebox_bg.png");
+	background-repeat: no-repeat;
+	background-position: bottom center;
+}
+#form{
+	width: 444px;
+	height: 25px;
+	padding: 15px 20px 14px 20px;
+	border: 0px;
+	font-size: 20px;
+	font-family: arial;
+}
+#go{
+	width:50px;
+	height: 37px;
+	padding: 17px 20px 0px 20px;
+	background-color: #400090;
+	color: white;
+	font-size: 18px;
+	text-shadow: none;
+}

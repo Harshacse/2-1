@@ -1,0 +1,40 @@
+function left_fun1()
+	{ 
+	   if(document.getElementById("left_div").style.float=="left")
+	      alert('Oops! Operation not possible!!');
+	   else
+	   {
+	     document.getElementById("left_div").style.float=left;
+		 document.getElementById("right_div").style.float=right;
+	   }
+	}
+	function right_fun1()
+	{
+	   if(document.getElementById("left_div").style.float=="right")
+	      alert('Oops! Operation not possible!!');
+	   	   else
+	   {
+	     document.getElementById("left_div").style.float=right;
+		 document.getElementById("right_div").style.float=left;
+	   }
+	}
+	
+	
+	function up_fun1()
+	{
+	  var y=getElementById("left_boxes").style.offsetheight;
+	  if(y<)
+	}
+	
+	function up_fun(i)
+	{
+	  switch(i)
+	  {
+	    case 1:
+	       alert('Oops!!Operation not possible');
+	    case 2:
+		   var c1=document.getElementById("right1").style.background-color;
+		   var c2=document.getElementById("right2").style.background-color;
+		   document.getElementById("right1").style.background-color=c2;
+		   document.getElementById("right2").style.background-color=c1;
+	  }

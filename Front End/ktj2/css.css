@@ -1,0 +1,502 @@
+
+*{
+	margin:0px;
+	padding:0px;
+}
+
+ul{
+	list-style-type:none;
+}
+
+ul li{
+	display:inline;
+}
+
+body{
+    margin:20px auto;
+	
+}
+
+#box1{
+    border-top:15px solid rgb(50,180,100);
+    margin-left:20px;
+	margin-right:20px;
+	background:url(http://madhusai.hostoi.com/banner.png) no-repeat;
+	height:485px;
+	width:1310px;
+}
+
+#box1_info{
+	position:absolute;
+	margin-top:140px;
+	margin-left:280px;
+}
+
+#box1_info #box1_text{
+	font:28px "Helvetica-Neue",sans-serif;
+	word-spacing:2px;
+	color:#ffffff;
+	margin-top:10px;
+	margin-bottom:26px;
+	text-align:left;
+}
+
+#box1_imgs{
+	background:url(http://madhusai.hostoi.com/bg_os.png) no-repeat;
+	
+	
+}
+
+#box1_imgs:hover{
+	transition: 0.001s ease;
+cursor: pointer;
+cursor: hand;
+background-color: #2ecc71;
+border-radius: 50%;
+}
+
+
+.box2{
+	display:inline-block;
+    margin-top:50px;
+}
+
+.box2_text{
+    margin-left:100px;
+	width:315px;
+	height:220px;
+	text-align:center;
+	font:20px "Helvetica-Neue",sans-serif;
+	text-shadow:0 1px #c6c6c6;
+	color:#848484;
+}
+
+.box2_head{
+	color:#222222;
+	font:30px "Helvetica-Neue",sans-serif;
+	margin-top:40px;
+	margin-bottom:30px;
+}
+
+.box2_img{
+	background:url(http://madhusai.hostoi.com/bg_feat.png) no-repeat;
+	margin-left:210px;
+}
+
+.box2_img:hover{
+	background:url(http://madhusai.hostoi.com/bg_feat_hover.png) no-repeat;
+}
+
+
+#box3{
+	height:425px;
+	width:1310px;
+	margin:20px auto;
+	background-color:#cccccc;
+	margin-top:-30px;
+}
+
+#box3_info{
+	float:left;
+	width:540px;
+	height:307px;
+	padding:80px 100px 0 80px;
+}
+
+#box3_head{
+	text-align:left;
+	color:black;
+	text-shadow:0 1px #c6c6c6;
+	font:30px "Helvetica-Neue",sans-serif;
+}
+
+#box3_para{
+	text-align:left;
+	font:20px "Helvetica-Neue",sans-serif;
+	text-shadow:0 1px #c6c6c6;
+	color:#848484;
+	padding-top:30px;
+}
+
+
+input{
+	width:350px;
+	height:68px;
+	border:1px #c8c8c8 solid;
+	padding-left:20px;
+	border-radius:10px 0 0 10px;
+	margin:30px 0;
+	font:25px "Helvetica-Neue",sans-serif;
+}
+
+#notify{
+	display:inline-block;
+	width:150px;
+	height:68px;
+	background-color:#2ecc71;
+	color:#ffffff;
+	font:25px "Helvetica-Neue",sans-serif;
+	text-shadow:0 1px #c6c6c6;
+	border:none;
+	border-radius:0 10px 10px 0;
+	margin-left:-5px;
+}
+
+#notify:hover{
+	background-color:#32bc6d;
+}
+
+#box3_img{
+	width:500px;
+	height:307px;
+	float:left;
+	margin:60px 0 0 10px;
+	background:url(http://madhusai.hostoi.com/video.png) no-repeat;
+}
+
+#box3_video{
+	margin-top:240px;
+}
+
+#box3_play{
+	display:inline-block;
+	background:url(http://madhusai.hostoi.com/play_btn_bg.png) no-repeat;
+	padding-right:10px;
+	display:inline-block;
+}
+
+#box3_play:hover{
+	background:url(http://madhusai.hostoi.com/play_btn_bg_hover.png) no-repeat;
+}
+
+#box3_img:hover{
+	background:url(http://madhusai.hostoi.com/video2.png) no-repeat;
+}
+
+#box4_para{
+	text-align: center;
+    color: rgb(132,132,132);
+    font-size: 20px;
+    font-style: italic;
+    position: relative;
+    margin-bottom:30px;
+    background-color: white;
+}
+
+#box4{
+	text-align:center;
+	font:24px "Myriad Pro",sans-serif;
+	color:#8c8c8c;
+	text-shadow:0 1px #9d9d9d9;
+	margin-top:60px;
+}
+#box4_head{
+	text-align: center;
+    color: rgb(34,34,34);
+    font-size: 30px;
+	font-family:tahoma;
+}
+
+#hi{
+	color:#2e2e2e;
+	font-size:30px "Myriad Pro",sans-serif;
+	padding:30px 0 30px 0;
+	margin-top:20px;
+	
+}
+
+#img1{
+	display:inline-block;
+	background:url(http://madhusai.hostoi.com/test_01.png) no-repeat;
+	width:50px;
+	height:50px;
+}
+
+#img1:hover{
+	background:url(http://madhusai.hostoi.com/test_01_hover.png) no-repeat;
+	transition:0.15s;
+}
+
+#img2{
+	display:inline-block;
+	background:url(http://madhusai.hostoi.com/test_02.png) no-repeat;
+	width:50px;
+	height:50px;
+}
+
+#img2:hover{
+	background:url(http://madhusai.hostoi.com/test_02_hover.png) no-repeat;
+	transition:0.15s;
+}
+
+#img3{
+	display:inline-block;
+	background:url(http://madhusai.hostoi.com/test_04.png) no-repeat;
+	width:50px;
+	height:50px;
+}
+
+#img3:hover{
+	background:url(http://madhusai.hostoi.com/test_04_hover.png) no-repeat;
+	transition:0.15s;
+}
+
+#img4{
+	display:inline-block;
+	background:url(http://madhusai.hostoi.com/test_06.png) no-repeat;
+	width:50px;
+	height:50px;
+}
+
+#img4:hover{
+	background:url(http://madhusai.hostoi.com/test_06_hover.png) no-repeat;
+	transition:0.15s;
+}
+
+#img5{
+	display:inline-block;
+	background:url(http://madhusai.hostoi.com/test_08.png) no-repeat;
+	width:50px;
+	height:50px;
+}
+
+#img5:hover{
+	background:url(http://madhusai.hostoi.com/test_08_hover.png) no-repeat;
+	transition:0.15s;
+}
+
+#img6{
+	display:inline-block;
+	background:url(http://madhusai.hostoi.com/test_10.png) no-repeat;
+	width:50px;
+	height:50px;
+}
+
+#img6:hover{
+	background:url(http://madhusai.hostoi.com/test_10_hover.png) no-repeat;
+	transition:0.15s;
+}
+
+#img7{
+	display:inline-block;
+	background:url(http://madhusai.hostoi.com/test_12.png) no-repeat;
+	width:50px;
+	height:50px;
+}
+
+#img7:hover{
+	background:url(http://madhusai.hostoi.com/test_12_hover.png) no-repeat;
+	transition:0.15s;
+}
+
+#img8{
+	display:inline-block;
+	background:url(http://madhusai.hostoi.com/test_14.png) no-repeat;
+	width:50px;
+	height:50px;
+}
+
+#img8:hover{
+	background:url(http://madhusai.hostoi.com/test_14_hover.png) no-repeat;
+	transition:0.15s;
+}
+
+#img9{
+	display:inline-block;
+	background:url(http://madhusai.hostoi.com/test_16.png) no-repeat;
+	width:50px;
+	height:50px;
+}
+
+#img9:hover{
+	background:url(http://madhusai.hostoi.com/test_16_hover.png) no-repeat;
+	transition:0.15s;
+}
+
+#img10{
+	display:inline-block;
+	background:url(http://madhusai.hostoi.com/test_18.png) no-repeat;
+	width:50px;
+	height:50px;
+}
+
+#img10:hover{
+	background:url(http://madhusai.hostoi.com/test_18_hover.png) no-repeat;
+	transition:0.15s;
+}
+
+#img11{
+	display:inline-block;
+	background:url(http://madhusai.hostoi.com/test_20.png) no-repeat;
+	width:50px;
+	height:50px;
+}
+
+#img11:hover{
+	background:url(http://madhusai.hostoi.com/test_20_hover.png) no-repeat;
+	transition:0.15s;
+}
+
+#img12{
+	display:inline-block;
+	background:url(http://madhusai.hostoi.com/test_22.png) no-repeat;
+	width:50px;
+	height:50px;
+}
+
+#img12:hover{
+	background:url(http://madhusai.hostoi.com/test_22_hover.png) no-repeat;
+	transition:0.15s;
+}
+
+#img13{
+	display:inline-block;
+	background:url(http://madhusai.hostoi.com/test_24.png) no-repeat;
+	width:50px;
+	height:50px;
+}
+
+#img13:hover{
+	backgroud:url(http://madhusai.hostoi.com/test_24_hover.png) no-repeat;
+	transition:0.15s;
+}
+
+#img14{
+	display:inline-block;
+	background:url(http://madhusai.hostoi.com/test_26.png) no-repeat;
+	width:50px;
+	height:50px;
+}
+
+#img14:hover{
+	background:url(http://madhusai.hostoi.com/test_26_hover.png) no-repeat;
+	transition:0.15s;
+}
+
+#img15{
+	display:inline-block;
+	background:url(http://madhusai.hostoi.com/test_28.png) no-repeat;
+	width:50px;
+	height:50px;
+}
+#img15:hover{
+	background:url(http://madhusai.hostoi.com/test_28_hover.png) no-repeat;
+	transition:0.15s;
+}
+
+#img16{
+	display:inline-block;
+	background:url(http://madhusai.hostoi.com/test_30.png) no-repeat;
+	width:50px;
+	height:50px;
+}
+
+#img16:hover{
+	background:url(http://madhusai.hostoi.com/test_30_hover.png) no-repeat;
+	transition:0.15s;
+}
+
+#img17{
+	display:inline-block;
+	background:url(http://madhusai.hostoi.com/test_32.png) no-repeat;
+	width:50px;
+	height:50px;
+}
+
+#img17:hover{
+	background:url(http://madhusai.hostoi.com/test_32_hover.png) no-repeat;
+	transition:0.15s;
+}
+
+#img18{
+	display:inline-block;
+	background:url(http://madhusai.hostoi.com/test_34.png) no-repeat;
+	width:50px;
+	height:50px;
+}
+
+#img18:hover{
+	background:url(http://madhusai.hostoi.com/test_34_hover.png) no-repeat;
+	transition:0.15s;
+}
+
+#img19{
+	display:inline-block;
+	background:url(http://madhusai.hostoi.com/test_36.png) no-repeat;
+	width:50px;
+	height:50px;
+}
+
+#img19:hover{
+	background:url(http://madhusai.hostoi.com/test_36_hover.png) no-repeat;
+	transition:0.15s;
+}
+
+#img20{
+	display:inline-block;
+	background:url(http://madhusai.hostoi.com/test_38.png) no-repeat;
+	width:50px;
+	height:50px;
+}
+
+#img20:hover{
+	background:url(http://madhusai.hostoi.com/test_38_hover.png) no-repeat;
+	transition:0.15s;
+}
+
+#img21{
+	display:inline-block;
+	background:url(http://madhusai.hostoi.com/test_40.png) no-repeat;
+	width:50px;
+	height:50px;
+}
+
+#img21:hover{
+	background:url(http://madhusai.hostoi.com/test_40_hover.png) no-repeat;
+	transition:0.15s;
+}
+.foot{
+	margin-bottom:60px;
+}
+#box4_bottom{
+    margin-bottom:20px;
+	}
+
+.foot ul li{
+	margin-right:15px;
+}
+
+.box4_imgs{
+	display:inline-block;
+	background:url(http://madhusai.hostoi.com/social_bg.png) no-repeat;
+}
+
+.box4_imgs:hover{
+	background:url(http://madhusai.hostoi.com/social_bg_hover.png) no-repeat;
+}
+
+footer{
+	height:80px;
+	color:#84848;
+	background-color:#cccccc;
+	text-align:center;
+	padding-top:40px;
+	font:30px "Helvetica-Neue",sans-serif;
+	text-shadow:0 1px #cacaca;
+	word-spacing:50px;
+	margin:20 px auto;
+}
+
+footer a{
+
+	text-decoration:none;
+	color:#848484;
+}
+
+footer a:hover{
+	color:#5e5e5e;
+}
+
+footer a:visited{
+	color:#848484;
+}
